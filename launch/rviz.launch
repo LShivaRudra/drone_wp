@@ -1,0 +1,3 @@
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find drone_wp)/launch/drone_test.rviz" required="true" />
+</launch>
